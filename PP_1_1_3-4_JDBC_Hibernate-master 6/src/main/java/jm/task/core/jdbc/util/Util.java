@@ -32,7 +32,7 @@ public class Util {
             configuration.setProperty("hibernate.connection.password", PASSWORD);
             configuration.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
             configuration.setProperty("hibernate.show_sql", "true");
-            configuration.setProperty("hibernate.hbm2ddl.auto", "update"); // "create" / "validate" / "none"
+            //configuration.setProperty("hibernate.hbm2ddl.auto", "update"); // "create" / "validate" / "none"
 
             configuration.addAnnotatedClass(User.class);
 
